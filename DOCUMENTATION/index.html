@@ -1013,19 +1013,19 @@
                         <li>Please, open page <em>custom.js</em></li>
                         <li>Find <code>function initMap()</code> in code of this file.<br>
                         Then find line of code
-                            <code>center: new google.maps.LatLng(40.717729,-74.006648),</code>
+                            <code>center: new google.maps.LatLng(10.8701127,106.8043562),</code>
                         </li>
-                        <li>You should change '40.717729,-74.006648' on your own. You can find appropriate value <a href="maps.google.com">here.</a></li>
+                        <li>You should change '10.8701127,106.8043562' on your own. You can find appropriate value <a href="maps.google.com">here.</a></li>
                         <li>You can add additional markers. You should init this part of code:
                             <pre class="brush: html">
                                 var markerC = new google.maps.Marker({
                                     map: map,
-                                    position: new google.maps.LatLng(51.512615, -0.130607)
+                                    position: new google.maps.LatLng(10.8701127,106.8043562)
                                 });
                             </pre>
                         </li>
-                        <li>There you should find field position: <code>position: new google.maps.LatLng(51.512615, -0.130607)</code></li>
-                        <li>You should change '51.512615, -0.130607' on your own. You can find appropriate value <a href="maps.google.com">here.</a> If you don’t need the second marker, just delete construction    
+                        <li>There you should find field position: <code>position: new google.maps.LatLng(10.8701127,106.8043562)</code></li>
+                        <li>You should change '10.8701127,106.8043562' on your own. You can find appropriate value <a href="maps.google.com">here.</a> If you don’t need the second marker, just delete construction    
                         <code>var markerB = new google.maps.Marker({
                                     map: map,
                                     position: new google.maps.LatLng(40.772898,-73.936878)

@@ -889,7 +889,7 @@ function init_Contact () {
 				//Init map
                     var mapOptions = {
                         scaleControl: true,
-                        center: new google.maps.LatLng(51.509708, -0.130539),
+                        center: new google.maps.LatLng(10.8701127,106.8043562),
                         zoom: 15,
                         navigationControl: false,
                         streetViewControl: false,
@@ -1353,7 +1353,7 @@ function init_MoviePage () {
    					//Map start init
                     var mapOptions = {
                         scaleControl: true,
-                        center: new google.maps.LatLng(51.508798, -0.131687),
+                        center: new google.maps.LatLng(10.8701127,106.8043562),
                         zoom: 15,
                         navigationControl: false,
                         streetViewControl: false,
@@ -1368,22 +1368,22 @@ function init_MoviePage () {
 
                     var markerB = new google.maps.Marker({
                         map: map,
-                        position: new google.maps.LatLng(51.510838, -0.130400)
+                        position: new google.maps.LatLng(10.8701127,106.8043562)
                     });
 
                     var markerC = new google.maps.Marker({
                         map: map,
-                        position: new google.maps.LatLng(51.512615, -0.130607)
+                        position: new google.maps.LatLng(10.8701127,106.8043562)
                     });
 
                     var markerD = new google.maps.Marker({
                         map: map,
-                        position: new google.maps.LatLng(51.509859, -0.130213)
+                        position: new google.maps.LatLng(10.8701127,106.8043562)
                     });
 
                     var markerE = new google.maps.Marker({
                         map: map,
-                        position: new google.maps.LatLng(51.509194, -0.130091)
+                        position: new google.maps.LatLng(10.8701127,106.8043562)
                     });
 
 
@@ -1882,7 +1882,7 @@ function init_Cinema () {
     //4. Init map
     				var mapOptions = {
                         scaleControl: true,
-                        center: new google.maps.LatLng(51.508798, -0.131687),
+                        center: new google.maps.LatLng(10.8701127,106.8043562),
                         zoom: 16,
                         navigationControl: false,
                         streetViewControl: false,
